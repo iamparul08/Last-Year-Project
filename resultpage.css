@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.mathur{
+	background: #130C67;
+	/*color:antiquewhite;*/
+}
+table{
+	padding: 0px;
+	border:2px solid ;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px 2px #000000;
+}
+.mat{
+	align-content: center;
+	background: #0D0543;
+	color: aliceblue;
+	height: 50px;
+	width: 100%;
+	font-family: Chiller;
+	font-weight: bolder;
+}
+td{
+	border:solid 2px #3C3267;
+	font-family: Cooper Black;
+	font-size: 15px;
+	font-weight: lighter;
+	width: 180px;
+	height: 200px;
+	color: aliceblue;
+	align-content: center;
+}

@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: url(blue_stripes.jpg) no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.about{
+	height: 200px;
+	width: 50%;
+	color: white;
+	margin: 20px 0px 0px 400px;	
+}
+.abc{
+	height: 200px;
+	width: 30%;
+	color: white;
+	margin: 60px 0px 0px 550px;
+	text-align: center;
+	font-size: 150px;
+	font-family: Chiller;
+}
+.pic1{
+	float: left;
+	height: 180px;
+	width: 20%;
+	margin: 100px 0px 0px 300px;
+	background: url(img.jpg) no-repeat;
+	background-size: cover;
+}
+.pic2{
+	float: left;
+	height: 300px;
+	width: 20%;
+	margin: 100px 0px 0px 28px;
+	background: url(im9.jpg) no-repeat;
+}
+.pic3{
+	float: left;
+	height: 180px;
+	width: 20%;
+	margin: 100px 20px 0px 0px;
+	background: url(ima11.jpg) no-repeat;
+}
+.pic4{
+	float: left;
+	height: 300px;
+	width: 20%;
+	margin: 50px 10px 0px 300px;
+	background: url(ima3.jpg) no-repeat;
+}
+.pic5{
+	float: left;
+	height: 180px;
+	width: 20%;
+	margin: 50px 0px 0px 8px;
+	background: url(im123.jpg) no-repeat;
+}
+.pic6{
+	float: left;
+	height: 180px;
+	width: 20%;
+	margin: 50px 0px 0px 8px;
+	background: url(im23.jpg) no-repeat;
+}
+.btn{
+	height: 120px;
+	width: 120px;
+	top: 40px;
+	left: 20px;
+	background: #fff;
+	position: absolute;	
+}

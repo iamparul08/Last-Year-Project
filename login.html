@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LOGIN PAGE</title>
+<link href="login.css" media="all" type="text/css" rel="stylesheet"/>
+<script>
+function myFunction() {
+  document.getElementById("submit").innerHTML = "resultpage.html";
+}
+</script>
+</head>
+<body>
+<table>
+	<tr>
+		<td align="center">LOGIN FORM</td>
+	</tr>
+	<tr><td align="center">ENTER THE DETAILS TO KNOW YOUR RESULTS</td></tr>
+	<tr>
+		<td><form method="" action="">
+				&nbsp;&nbsp;<label><b>Name</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text" placeholder="Enter Name" maxlength="20" required/>
+					<br/><br/>
+				&nbsp;&nbsp;<label><b>ROLLNO.</b></label>
+					<input type="number" placeholder="Enter RollNo." maxlength="20" required/>
+					<tr>
+						<td align="center">
+						<!--<input type="submit" align="middle" value="LOGIN" class="submit">-->
+						<button id="submit" onclick="myFunction()">LOGIN</button>
+						
+						<br /><br />
+						<input type="button" align="middle" value="NOT NOW" class="button">
+						</td>
+					</tr>
+			</form>		
+		</td>
+	</tr>
+</table>
+<div class="button">
+			<a href="project.html">
+			<span class="btn"><img src="back_button-128.png"></span>
+			</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+		padding: 0px;
+		margin: 0px;
+		background: url(blue_stripes.jpg);
+	}
+table{
+	align-content: center;
+	box-shadow: 2px 2px 3px 3px #000;
+	border: #524C4C thin;
+	margin: 140px 30px 0px 600px;
+	height: auto;
+	width: auto;
+}
+tr{
+	width: 60px;
+	height: 60px;
+	border: solid;
+}
+td{
+	align-content: center;
+	align-items: center;
+	background: #66667A;
+	font-family: Comic sans ms;
+	color: aliceblue;
+}
+	
+	input[type=text]{
+		outline: none;
+		height: 20px;
+		width: 230px;
+		font-size: 15px;
+		border: 3px solid #458A1A;
+		border-radius: 5px;
+		border-color: #0D7BA3;
+		color: #000000;
+		box-shadow: 0px 0px 5px #0000;
+		}	
+	input[type=number]{
+		outline: none;
+		height: 20px;
+		width: 230px;
+		font-size: 15px;
+		border: 3px solid #458A1A;
+		border-radius: 5px;
+		border-color: #0D7BA3;
+		color: #000000;
+		box-shadow: 0px 0px 5px #0000;
+		}	
+	input[type=text]:hover
+		{
+			background: #E3D5D5;
+		}
+	input[type=number]:hover
+		{
+			background-color: #E3D5D5;
+		}
+	#submit{
+	background: #40475F;
+	height: 30px;
+	width: 25%;
+	border-radius: 40px;
+	outline: none;
+	text-decoration: none;
+	font-weight: bold;
+}
+	#submit:active{
+	background: #142AAF;
+}
+	#submit:hover{
+	background: #AF8283;
+	cursor: pointer;
+}
+	.button{
+	height: 30px;
+	width: 25%;
+	border-radius: 20px;
+	outline: none;
+	font-weight: bold;
+}
+	.btn{
+	height: 120px;
+	width: 120px;
+	top: 40px;
+	left: 20px;
+	background: #fff;
+	position: absolute;	
+}

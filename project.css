@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	background: url(1488188893phpaxZqAB.jpeg) no-repeat;
+	background-size: cover;
+}
+.basic_info{
+	height: inherit;
+	width: inherit;
+}
+nav{
+	top: 0px;
+	height: 60px;
+	width: 100%;
+	background: #0C0F80;
+	position: fixed;
+	z-index: 1;
+	box-shadow: 0px 0px 5px #000;
+}
+.menu{
+	height: inherit;
+	width: 80%;
+	margin: 0px auto;
+}
+.logo-panel,.info-panel{
+	height: inherit;
+	float: left;
+}
+.logo-panel{
+	width: 30%;
+}
+.logo-panel > ul{
+	margin: 0px;
+	padding: 0px;
+}
+.logo-panel > ul >li{
+	list-style: none;
+	font: italic;
+	font-family: Monotype Corsiva;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+.logo-panel > ul > li > a{
+	display: block;
+	padding: 15.5px;
+}
+.logo-panel > ul > li > a:hover{
+	color: #C8C8C8;
+	cursor: pointer;
+}
+.info-panel{
+	width: 70%;
+}
+.info-panel > ul{
+	margin: 0px;
+	padding: 0px;
+}
+.info-panel > ul > li{
+	float: left;
+	list-style: none;
+	width: 20%;
+	font-family: Comic sans ms;
+	text-align: center;
+}	
+.info-panel > ul > li > a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 15.5px;
+	cursor: pointer;
+}
+.info-panel > ul > li > a:hover{
+	color: #C8C8C8;
+}
+.one{
+	height: 70px;
+	width: 750px;
+	font-size: 30px;
+	font-family: Chiller;
+	margin: 100px 0px  0px 300px;
+}
